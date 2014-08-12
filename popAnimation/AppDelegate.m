@@ -7,12 +7,22 @@
 //
 
 #import "AppDelegate.h"
+#import "ExamplesController.h"
 
 @implementation AppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    // Override point for customization after application launch.
+@synthesize window;
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
+    window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    ExamplesController *viewController = [[ExamplesController alloc] init];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    window.backgroundColor = [UIColor colorWithRed:0/255.0 green:47/255.0 blue:123/255.0 alpha:1];
+    window.rootViewController = navigationController;
+
+    [window makeKeyAndVisible];
+
     return YES;
 }
 							

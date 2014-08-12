@@ -13,28 +13,16 @@
 		4C3B70CE1999257B00169EC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C3B70CC1999257B00169EC4 /* InfoPlist.strings */; };
 		4C3B70D01999257B00169EC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3B70CF1999257B00169EC4 /* main.m */; };
 		4C3B70D41999257B00169EC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3B70D31999257B00169EC4 /* AppDelegate.m */; };
-		4C3B70D71999257B00169EC4 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C3B70D51999257B00169EC4 /* Main_iPhone.storyboard */; };
-		4C3B70DA1999257B00169EC4 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C3B70D81999257B00169EC4 /* Main_iPad.storyboard */; };
-		4C3B70DD1999257B00169EC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3B70DC1999257B00169EC4 /* ViewController.m */; };
 		4C3B70DF1999257B00169EC4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C3B70DE1999257B00169EC4 /* Images.xcassets */; };
-		4C3B70E61999257B00169EC4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C3B70E51999257B00169EC4 /* XCTest.framework */; };
-		4C3B70E71999257B00169EC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C3B70C31999257B00169EC4 /* Foundation.framework */; };
-		4C3B70E81999257B00169EC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C3B70C71999257B00169EC4 /* UIKit.framework */; };
-		4C3B70F01999257B00169EC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C3B70EE1999257B00169EC4 /* InfoPlist.strings */; };
-		4C3B70F21999257B00169EC4 /* popAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3B70F11999257B00169EC4 /* popAnimationTests.m */; };
+		4C3B70FD1999268E00169EC4 /* ExamplesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3B70FC1999268E00169EC4 /* ExamplesController.m */; };
+		4C70BB17199A5E46006D8385 /* SpringAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C70BB16199A5E46006D8385 /* SpringAnimationController.m */; };
+		4C70BB1A199A5E6F006D8385 /* BasicAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C70BB19199A5E6F006D8385 /* BasicAnimationController.m */; };
+		4C70BB1D199A5E82006D8385 /* DecayAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C70BB1C199A5E82006D8385 /* DecayAnimationController.m */; };
+		59B80B71729B42C2A13D6980 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3628A9A0E2D2497BA848CC51 /* libPods.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		4C3B70E91999257B00169EC4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4C3B70B81999257B00169EC4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4C3B70BF1999257B00169EC4;
-			remoteInfo = popAnimation;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		3628A9A0E2D2497BA848CC51 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C3B70C01999257B00169EC4 /* popAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = popAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C3B70C31999257B00169EC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4C3B70C51999257B00169EC4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,16 +33,17 @@
 		4C3B70D11999257B00169EC4 /* popAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "popAnimation-Prefix.pch"; sourceTree = "<group>"; };
 		4C3B70D21999257B00169EC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4C3B70D31999257B00169EC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4C3B70D61999257B00169EC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		4C3B70D91999257B00169EC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		4C3B70DB1999257B00169EC4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4C3B70DC1999257B00169EC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4C3B70DE1999257B00169EC4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4C3B70E41999257B00169EC4 /* popAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = popAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C3B70E51999257B00169EC4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		4C3B70ED1999257B00169EC4 /* popAnimationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "popAnimationTests-Info.plist"; sourceTree = "<group>"; };
-		4C3B70EF1999257B00169EC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4C3B70F11999257B00169EC4 /* popAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = popAnimationTests.m; sourceTree = "<group>"; };
+		4C3B70FB1999268E00169EC4 /* ExamplesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExamplesController.h; sourceTree = "<group>"; };
+		4C3B70FC1999268E00169EC4 /* ExamplesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExamplesController.m; sourceTree = "<group>"; };
+		4C70BB15199A5E46006D8385 /* SpringAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringAnimationController.h; sourceTree = "<group>"; };
+		4C70BB16199A5E46006D8385 /* SpringAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringAnimationController.m; sourceTree = "<group>"; };
+		4C70BB18199A5E6F006D8385 /* BasicAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicAnimationController.h; sourceTree = "<group>"; };
+		4C70BB19199A5E6F006D8385 /* BasicAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicAnimationController.m; sourceTree = "<group>"; };
+		4C70BB1B199A5E82006D8385 /* DecayAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecayAnimationController.h; sourceTree = "<group>"; };
+		4C70BB1C199A5E82006D8385 /* DecayAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecayAnimationController.m; sourceTree = "<group>"; };
+		93011EF2F40E4A1FB43B41A8 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,16 +54,7 @@
 				4C3B70C61999257B00169EC4 /* CoreGraphics.framework in Frameworks */,
 				4C3B70C81999257B00169EC4 /* UIKit.framework in Frameworks */,
 				4C3B70C41999257B00169EC4 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4C3B70E11999257B00169EC4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4C3B70E61999257B00169EC4 /* XCTest.framework in Frameworks */,
-				4C3B70E81999257B00169EC4 /* UIKit.framework in Frameworks */,
-				4C3B70E71999257B00169EC4 /* Foundation.framework in Frameworks */,
+				59B80B71729B42C2A13D6980 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,9 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				4C3B70C91999257B00169EC4 /* popAnimation */,
-				4C3B70EB1999257B00169EC4 /* popAnimationTests */,
 				4C3B70C21999257B00169EC4 /* Frameworks */,
 				4C3B70C11999257B00169EC4 /* Products */,
+				93011EF2F40E4A1FB43B41A8 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				4C3B70C01999257B00169EC4 /* popAnimation.app */,
-				4C3B70E41999257B00169EC4 /* popAnimationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,6 +86,7 @@
 				4C3B70C51999257B00169EC4 /* CoreGraphics.framework */,
 				4C3B70C71999257B00169EC4 /* UIKit.framework */,
 				4C3B70E51999257B00169EC4 /* XCTest.framework */,
+				3628A9A0E2D2497BA848CC51 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,12 +96,16 @@
 			children = (
 				4C3B70D21999257B00169EC4 /* AppDelegate.h */,
 				4C3B70D31999257B00169EC4 /* AppDelegate.m */,
-				4C3B70D51999257B00169EC4 /* Main_iPhone.storyboard */,
-				4C3B70D81999257B00169EC4 /* Main_iPad.storyboard */,
-				4C3B70DB1999257B00169EC4 /* ViewController.h */,
-				4C3B70DC1999257B00169EC4 /* ViewController.m */,
 				4C3B70DE1999257B00169EC4 /* Images.xcassets */,
 				4C3B70CA1999257B00169EC4 /* Supporting Files */,
+				4C3B70FB1999268E00169EC4 /* ExamplesController.h */,
+				4C3B70FC1999268E00169EC4 /* ExamplesController.m */,
+				4C70BB18199A5E6F006D8385 /* BasicAnimationController.h */,
+				4C70BB19199A5E6F006D8385 /* BasicAnimationController.m */,
+				4C70BB15199A5E46006D8385 /* SpringAnimationController.h */,
+				4C70BB16199A5E46006D8385 /* SpringAnimationController.m */,
+				4C70BB1B199A5E82006D8385 /* DecayAnimationController.h */,
+				4C70BB1C199A5E82006D8385 /* DecayAnimationController.m */,
 			);
 			path = popAnimation;
 			sourceTree = "<group>";
@@ -137,24 +121,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4C3B70EB1999257B00169EC4 /* popAnimationTests */ = {
-			isa = PBXGroup;
-			children = (
-				4C3B70F11999257B00169EC4 /* popAnimationTests.m */,
-				4C3B70EC1999257B00169EC4 /* Supporting Files */,
-			);
-			path = popAnimationTests;
-			sourceTree = "<group>";
-		};
-		4C3B70EC1999257B00169EC4 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4C3B70ED1999257B00169EC4 /* popAnimationTests-Info.plist */,
-				4C3B70EE1999257B00169EC4 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C3B70F51999257B00169EC4 /* Build configuration list for PBXNativeTarget "popAnimation" */;
 			buildPhases = (
+				22FB5ADE696B488D8F2CFE1C /* Check Pods Manifest.lock */,
 				4C3B70BC1999257B00169EC4 /* Sources */,
 				4C3B70BD1999257B00169EC4 /* Frameworks */,
 				4C3B70BE1999257B00169EC4 /* Resources */,
+				15923A84C4C7486C87895EF1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -175,24 +143,6 @@
 			productReference = 4C3B70C01999257B00169EC4 /* popAnimation.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4C3B70E31999257B00169EC4 /* popAnimationTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4C3B70F81999257B00169EC4 /* Build configuration list for PBXNativeTarget "popAnimationTests" */;
-			buildPhases = (
-				4C3B70E01999257B00169EC4 /* Sources */,
-				4C3B70E11999257B00169EC4 /* Frameworks */,
-				4C3B70E21999257B00169EC4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4C3B70EA1999257B00169EC4 /* PBXTargetDependency */,
-			);
-			name = popAnimationTests;
-			productName = popAnimationTests;
-			productReference = 4C3B70E41999257B00169EC4 /* popAnimationTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -200,11 +150,6 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
-				TargetAttributes = {
-					4C3B70E31999257B00169EC4 = {
-						TestTargetID = 4C3B70BF1999257B00169EC4;
-					};
-				};
 			};
 			buildConfigurationList = 4C3B70BB1999257B00169EC4 /* Build configuration list for PBXProject "popAnimation" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -220,7 +165,6 @@
 			projectRoot = "";
 			targets = (
 				4C3B70BF1999257B00169EC4 /* popAnimation */,
-				4C3B70E31999257B00169EC4 /* popAnimationTests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,81 +174,67 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C3B70DA1999257B00169EC4 /* Main_iPad.storyboard in Resources */,
 				4C3B70DF1999257B00169EC4 /* Images.xcassets in Resources */,
-				4C3B70D71999257B00169EC4 /* Main_iPhone.storyboard in Resources */,
 				4C3B70CE1999257B00169EC4 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4C3B70E21999257B00169EC4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15923A84C4C7486C87895EF1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C3B70F01999257B00169EC4 /* InfoPlist.strings in Resources */,
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		22FB5ADE696B488D8F2CFE1C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4C3B70BC1999257B00169EC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C3B70DD1999257B00169EC4 /* ViewController.m in Sources */,
 				4C3B70D41999257B00169EC4 /* AppDelegate.m in Sources */,
+				4C70BB17199A5E46006D8385 /* SpringAnimationController.m in Sources */,
+				4C3B70FD1999268E00169EC4 /* ExamplesController.m in Sources */,
+				4C70BB1A199A5E6F006D8385 /* BasicAnimationController.m in Sources */,
 				4C3B70D01999257B00169EC4 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4C3B70E01999257B00169EC4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4C3B70F21999257B00169EC4 /* popAnimationTests.m in Sources */,
+				4C70BB1D199A5E82006D8385 /* DecayAnimationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4C3B70EA1999257B00169EC4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4C3B70BF1999257B00169EC4 /* popAnimation */;
-			targetProxy = 4C3B70E91999257B00169EC4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4C3B70CC1999257B00169EC4 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4C3B70CD1999257B00169EC4 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		4C3B70D51999257B00169EC4 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C3B70D61999257B00169EC4 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		4C3B70D81999257B00169EC4 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C3B70D91999257B00169EC4 /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		4C3B70EE1999257B00169EC4 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C3B70EF1999257B00169EC4 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -386,6 +316,7 @@
 		};
 		4C3B70F61999257B00169EC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93011EF2F40E4A1FB43B41A8 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -399,6 +330,7 @@
 		};
 		4C3B70F71999257B00169EC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93011EF2F40E4A1FB43B41A8 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -407,46 +339,6 @@
 				INFOPLIST_FILE = "popAnimation/popAnimation-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		4C3B70F91999257B00169EC4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/popAnimation.app/popAnimation";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "popAnimation/popAnimation-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "popAnimationTests/popAnimationTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		4C3B70FA1999257B00169EC4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/popAnimation.app/popAnimation";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "popAnimation/popAnimation-Prefix.pch";
-				INFOPLIST_FILE = "popAnimationTests/popAnimationTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -469,14 +361,7 @@
 				4C3B70F71999257B00169EC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		4C3B70F81999257B00169EC4 /* Build configuration list for PBXNativeTarget "popAnimationTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4C3B70F91999257B00169EC4 /* Debug */,
-				4C3B70FA1999257B00169EC4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
